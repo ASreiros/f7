@@ -13,33 +13,25 @@ section {
   margin: 0 auto;
   font-size: 0;
   margin: 10vh 10%;
-  position: relative;
 }
 section div {
   display: inline-block;
   width: 20%;
   margin-right: 5%;
   height: 30vh;
-  position: absolute;
-}
-section div:nth-child(2) {
-  left: 25%;
-}
-section div:nth-child(3) {
-  left: 50%;
-}
-section div:nth-child(4) {
-  left: 75%;
 }
 section div img {
   margin: 10px 0 0 10px;
 }
 section div h2 {
+  width: 100%;
+  display: inline-block;
   margin: 20px 10px;
   text-transform: capitalize;
   font-size: 24px;
 }
 section div p {
+  display: inline-block;
   margin-left: 10px;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.7);
